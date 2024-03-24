@@ -1,0 +1,10 @@
+@import "@/styles/variables", "@/styles/bp";
+
+.component {
+    background-color: red;
+
+    @include respond-to("medium") {
+        background-color: blue;
+    }
+}
+

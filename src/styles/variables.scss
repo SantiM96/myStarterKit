@@ -1,0 +1,7 @@
+$white: #fff;
+$black: #000;
+$breakpoints: (
+    "small": (max-width: 767px),
+    "medium": (max-width: 1024px),
+    "large": (max-width: 1200px)
+) !default;
